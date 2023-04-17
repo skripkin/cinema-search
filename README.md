@@ -23,3 +23,11 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Github page
+Follow how it work on https://skripkin.github.io/Nodepad/
+
+## This project was created for/from
+This project was created by design https://www.figma.com/file/JRoUlaQhOMTvEJCTXqs0VS/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-(Copy)?t=RsIcq95ZLTQYhePF-0
+
+This is a test task for Anikom Group
