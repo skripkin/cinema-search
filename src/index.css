@@ -32,6 +32,7 @@ ul, li {
 }
 
 .global-wrapper {
+  margin: 0 auto;
   max-width: 1200px;
   width: 100%;
   padding: 34px 100px;
