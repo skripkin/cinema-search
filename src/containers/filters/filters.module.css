@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-input {
+  max-width: 208px;
+  margin-right: 20px;
+}
+
+.filter-select {
+  max-width: 208px;
+  margin-right: 20px;
+}
+
+.filter-button {
+  max-width: 82px;
+  margin-left: 4px;
+}
+
+.burgermenu {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 724px) {
+  .burgermenu {
+    display: block;
+    margin-left: auto;
+  }
+
+  .filter-button,
+  .filter-input,
+  .filter-select {
+    display: none;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--bg-color);
+    z-index: 2;
+  }
+
+  .mobile-menu > .filter-button,
+  .mobile-menu > .filter-input,
+  .mobile-menu > .filter-select {
+    display: block;
+    max-width: unset;
+    width: 100%;
+    margin: 11.5px 0;
+  }
+}

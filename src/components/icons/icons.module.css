@@ -1,0 +1,26 @@
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.topLine,
+.middleLine,
+.bottomLine {
+  width: 35px;
+  height: 5px;
+  background-color: var(--border-color);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .topLine {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .middleLine {
+  opacity: 0;
+}
+
+.change .bottomLine {
+  transform: translate(0, -11px) rotate(45deg);
+}

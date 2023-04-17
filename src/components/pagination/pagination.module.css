@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--text-color-dark);
+}
+
+.pagination:first-of-type {
+  margin-right: 83px;
+}
+
+.preview > svg {
+  margin-right: 14px;
+  transform: rotate(-180deg);
+}
+
+.next {
+  flex-direction: row-reverse;
+}
+
+.next > svg {
+  margin-left: 14px;
+}

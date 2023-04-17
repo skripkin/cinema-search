@@ -1,0 +1,10 @@
+.button {
+  padding: 7px 24px;
+  width: 100%;
+  background: var(--bg-color-button-light);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16.6px;
+  color: var(--text-color-dark);
+}
